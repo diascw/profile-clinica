@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { IconType } from "react-icons";
 import { Icons } from "@/components/atoms/Icons";
 
-interface SocialButtonProps {
+interface ButtonProps {
   icon: LucideIcon | IconType;
   label: string;
   variant?:
@@ -32,7 +32,7 @@ const variantStyles = {
   "clinic-tertiary": "bg-clinic-tertiary hover:bg-clinic-tertiary/90",
 };
 
-const isBrandVariant = (variant: SocialButtonProps["variant"]) =>
+const isBrandVariant = (variant: ButtonProps["variant"]) =>
   variant === "whatsapp" || variant === "facebook" || variant === "instagram";
 
 export function SocialButton({
@@ -43,7 +43,7 @@ export function SocialButton({
   size = "default",
   className,
   onClick,
-}: SocialButtonProps) {
+}: ButtonProps) {
   const iconSize = size === "lg" ? 32 : 24;
   const isBrand = isBrandVariant(variant);
 
