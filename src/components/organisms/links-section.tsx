@@ -11,18 +11,18 @@ import { OperatingHoursModal } from "@/components/molecules/operating-hours-moda
 
 const mainLinks = [
   {
-    title: "Nossa Localização",
-    description: "Encontre nossa clínica",
-    href: "https://www.google.com/maps/place/Cl%C3%ADnica+M%C3%A9dica+Vale+Viver/@-16.2513684,-40.1513323,17z/data=!3m1!4b1!4m6!3m5!1s0x749ef5353c51749:0x32814216bfe303fd!8m2!3d-16.2513684!4d-40.1513323!16s%2Fg%2F11krbr3k_s?entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
-    icon: MapPin,
-    variant: "tertiary" as const,
-  },
-  {
     title: "WhatsApp",
     description: "Fale conosco pelo WhatsApp",
     href: "https://wa.me/5533998420633",
     icon: MessageCircle,
     variant: "primary" as const,
+  },
+  {
+    title: "Localização",
+    description: "Encontre nossa clínica",
+    href: "https://www.google.com/maps/place/Cl%C3%ADnica+M%C3%A9dica+Vale+Viver/@-16.2513684,-40.1513323,17z/data=!3m1!4b1!4m6!3m5!1s0x749ef5353c51749:0x32814216bfe303fd!8m2!3d-16.2513684!4d-40.1513323!16s%2Fg%2F11krbr3k_s?entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
+    icon: MapPin,
+    variant: "tertiary" as const,
   },
 ];
 
