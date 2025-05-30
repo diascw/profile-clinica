@@ -1,5 +1,5 @@
 {
-  "name": "caminhos-do-sabor",
+  "name": "clinica-medica-vale-viver",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "@next/font": "^14.2.5",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tabs": "^1.1.11",
-    "caminhos-do-sabor": "file:",
+    "clinica-medica-vale-viver": "file:",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.12.1",
