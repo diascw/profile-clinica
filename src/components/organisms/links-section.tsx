@@ -13,14 +13,14 @@ const mainLinks = [
   {
     title: "Nossa Localização",
     description: "Encontre nossa clínica",
-    href: "#",
+    href: "https://www.google.com/maps/place/Cl%C3%ADnica+M%C3%A9dica+Vale+Viver/data=!4m2!3m1!1s0x0:0x32814216bfe303fd?sa=X&ved=1t:2428&ictx=111",
     icon: MapPin,
     variant: "tertiary" as const,
   },
   {
     title: "WhatsApp",
     description: "Fale conosco pelo WhatsApp",
-    href: "https://wa.me/5511999999999",
+    href: "https://wa.me/5533985880803",
     icon: MessageCircle,
     variant: "primary" as const,
   },
@@ -36,13 +36,13 @@ const operatingHoursLink = {
 const socialLinks = [
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/clinicamedicavaleviver/",
     icon: Instagram,
     variant: "secondary" as const,
   },
   {
     title: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/clinicamedicavaleviver/",
     icon: Facebook,
     variant: "tertiary" as const,
   },
