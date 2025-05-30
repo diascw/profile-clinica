@@ -20,7 +20,7 @@ const mainLinks = [
   {
     title: "WhatsApp",
     description: "Fale conosco pelo WhatsApp",
-    href: "https://wa.me/5533988081442",
+    href: "https://wa.me/5533998420633",
     icon: MessageCircle,
     variant: "primary" as const,
   },
