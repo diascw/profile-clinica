@@ -35,7 +35,7 @@ const variantStyles = {
 const isBrandVariant = (variant: ButtonProps["variant"]) =>
   variant === "whatsapp" || variant === "facebook" || variant === "instagram";
 
-export function SocialButton({
+export function Buttons({
   icon,
   label,
   variant = "clinic-primary",

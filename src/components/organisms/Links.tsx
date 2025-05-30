@@ -57,7 +57,7 @@ export function Links({
         onClick={() => handleOpen(`mailto:${email}`)}
       />
 
-      <Button
+      <Buttons
         icon={MapPin}
         label="Como Chegar"
         variant="clinic-tertiary"
