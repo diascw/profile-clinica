@@ -1,31 +1,26 @@
-import type { NextPage } from "next";
 import Head from "next/head";
-import { Profile } from "@/components/templates/profile";
-import { clinicData } from "@/lib/constants";
+import { Header } from "@/components/organisms/header";
+import { ProfileSection } from "@/components/organisms/profile-section";
+import { LinksSection } from "@/components/organisms/links-section";
+import { Footer } from "@/components/organisms/footer";
 
-const Home: NextPage = () => {
-  const { name, description, contact, social } = clinicData;
-
+export default function Home() {
   return (
     <>
       <Head>
-        <title>Vale Viver - Clínica Médica | Links</title>
+        <title>Clínica Médica Vale Viver</title>
+        <meta name="description" content="LinkTree da Clínica Médica" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Profile
-        name={name}
-        description={description}
-        schedule={contact.schedule}
-        address={contact.address}
-        phone={contact.phone}
-        whatsapp={contact.whatsapp}
-        facebookUrl={social.facebook}
-        instagramUrl={social.instagram}
-        email={contact.email}
-      />
+      <div className="min-h-screen bg-gradient-to-br from-background via-background to-primary/10">
+        <div className="container mx-auto px-4 py-8 max-w-md">
+          <Header />
+          <ProfileSection />
+          <LinksSection />
+          <Footer />
+        </div>
+      </div>
     </>
   );
-};
-
-export default Home;
+}

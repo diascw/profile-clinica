@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@next/font": "^14.2.5",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tabs": "^1.1.11",
-    "clinica-medica-vale-viver": "file:",
     "class-variance-authority": "^0.7.1",
+    "clinica-medica-vale-viver": "file:",
     "clsx": "^2.1.1",
     "framer-motion": "^12.12.1",
     "lucide-react": "^0.511.0",

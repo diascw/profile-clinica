@@ -2,7 +2,13 @@ import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "*.{js,ts,jsx,tsx,mdx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -27,6 +33,10 @@ const config = {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        tertiary: {
+          DEFAULT: "hsl(var(--tertiary))",
+          foreground: "hsl(var(--tertiary-foreground))",
+        },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -46,21 +56,6 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
-        },
-        // Cores customizadas da clínica
-        clinic: {
-          primary: "#0F6AA8",
-          secondary: "#77C46C",
-          tertiary: "#4B9991",
-        },
-        // Cores das redes sociais
-        social: {
-          whatsapp: "#25D366",
-          facebook: "#1877F2",
-          instagram: {
-            from: "#E4405F",
-            to: "#833AB4",
-          },
         },
       },
       borderRadius: {
