@@ -19,11 +19,11 @@ interface OperatingHoursModalProps {
 }
 
 const scheduleData = [
-  { day: "Segunda-feira", hours: "06:00 - 18:00", isOpen: true },
-  { day: "Terça-feira", hours: "07:00 - 18:00", isOpen: true },
-  { day: "Quarta-feira", hours: "06:00 - 18:00", isOpen: true },
-  { day: "Quinta-feira", hours: "07:00 - 18:00", isOpen: true },
-  { day: "Sexta-feira", hours: "07:00 - 18:00", isOpen: true },
+  { day: "Segunda-feira", hours: "08:00 - 17:00", isOpen: true },
+  { day: "Terça-feira", hours: "08:00 - 17:00", isOpen: true },
+  { day: "Quarta-feira", hours: "06:00 - 17:00", isOpen: true },
+  { day: "Quinta-feira", hours: "08:00 - 17:00", isOpen: true },
+  { day: "Sexta-feira", hours: "08:00 - 17:00", isOpen: true },
   { day: "Sábado", hours: "Fechado", isOpen: false },
   { day: "Domingo", hours: "Fechado", isOpen: false },
 ];
