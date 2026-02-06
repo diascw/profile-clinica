@@ -1,6 +1,6 @@
 # Clínica Médica Vale Viver
 
-Este projeto trata-se de um LinkTree institucional, criado para centralizar os principais links e informações de contato da **Clínica Médica Vale Viver**.
+LinkTree institucional, criado para centralizar os principais links e informações de contato da **Clínica Médica Vale Viver**.
 
 
 ## Tecnologias 
@@ -23,7 +23,7 @@ Este projeto trata-se de um LinkTree institucional, criado para centralizar os p
   - E-mail
   - Como Chegar (Google Maps)
 
-## 👨‍💻 Autor
+## Autor
 
 Wanessa Dias 
 
