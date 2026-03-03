@@ -23,7 +23,7 @@ LinkTree institucional, criado para centralizar os principais links e informa√ß√
   - E-mail
   - Como Chegar (Google Maps)
 
-## Autor
+## Engenheira de Software
 
 Wanessa Dias 
 
