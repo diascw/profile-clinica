@@ -21,7 +21,7 @@ LinkTree institucional, criado para centralizar os principais links e informa√ß√
   - Facebook
   - Instagram
   - E-mail
-  - Como Chegar (Google Maps)
+  - Como Chegar 
 
 ## Engenheira de Software
 
